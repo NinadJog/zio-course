@@ -4,8 +4,7 @@ ThisBuild / scalaVersion := "3.8.4"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "zio-course",
-    idePackagePrefix := Some("scala.com.rockthejvm")
+    name := "zio-course"
   )
 
 lazy val zioVersion = "2.1.22"
